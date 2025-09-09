@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/request-quote.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/resend/(.*)",
+      "destination": "https://api.resend.com/$1"
+    }
+  ]
+}
