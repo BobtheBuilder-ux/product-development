@@ -1,12 +1,4 @@
 {
-  "functions": {
-    "api/request-quote.ts": {
-      "runtime": "nodejs20.x"
-    },
-    "api/send-email.ts": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "rewrites": [
     {
       "source": "/api/resend/(.*)",
